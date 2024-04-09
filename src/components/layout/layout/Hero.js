@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Right } from './icons/Right';
+import { Right } from '../icons/Right';
 export const Hero = () => {
     return (
         <>
@@ -14,7 +14,7 @@ export const Hero = () => {
                         pero es como si lo <br/>
                         estuvieras.
                     </h1>
-                    <p className='my-4 text-gray-500 text-sm'>
+                    <p className='my-6 text-gray-500 text-sm'>
                         Con una combinación de una buena masa napolitana,<br/>
                         salsa de tomate natural
                         y un buen queso muzzarella, <br/>
